@@ -7,23 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C70BE6DD319BBEE53FB1B033 /* Pods_coremlproject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77C90E81DD9ADB1DAA052D2 /* Pods_coremlproject.framework */; };
+		CB1A511A2C78D3CB00D9C2C8 /* Chat-Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1A51192C78D3CB00D9C2C8 /* Chat-Model.swift */; };
 		CB22A6F62B9FF0CE00D55DAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB22A6F52B9FF0CE00D55DAD /* AppDelegate.swift */; };
 		CB22A6F82B9FF0CE00D55DAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB22A6F72B9FF0CE00D55DAD /* SceneDelegate.swift */; };
-		CB22A6FA2B9FF0CE00D55DAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB22A6F92B9FF0CE00D55DAD /* ViewController.swift */; };
-		CB22A6FD2B9FF0CE00D55DAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB22A6FB2B9FF0CE00D55DAD /* Main.storyboard */; };
 		CB22A6FF2B9FF0D100D55DAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB22A6FE2B9FF0D100D55DAD /* Assets.xcassets */; };
 		CB22A7022B9FF0D100D55DAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB22A7002B9FF0D100D55DAD /* LaunchScreen.storyboard */; };
+		CB22A70F2B9FF10100D55DAD /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB22A7092B9FF0FE00D55DAD /* Scene.swift */; };
+		CB22A7102B9FF10100D55DAD /* ARBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB22A70A2B9FF0FE00D55DAD /* ARBridge.swift */; };
+		CB22A7112B9FF10100D55DAD /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CB22A70B2B9FF0FE00D55DAD /* Scene.sks */; };
+		CB22A7122B9FF10100D55DAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB22A70C2B9FF0FE00D55DAD /* ViewController.swift */; };
+		CB22A7142B9FF10100D55DAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB22A70E2B9FF10100D55DAD /* Main.storyboard */; };
+		CB22A7162B9FF24100D55DAD /* BarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB22A7152B9FF24100D55DAD /* BarContentView.swift */; };
+		CB22A71B2B9FF27600D55DAD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB22A71A2B9FF27600D55DAD /* Model.swift */; };
+		CB22A71D2B9FF2B300D55DAD /* JudgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB22A71C2B9FF2B300D55DAD /* JudgeViewController.swift */; };
+		CB22A71F2B9FF2DE00D55DAD /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB22A71E2B9FF2DE00D55DAD /* ViewController1.swift */; };
+		CB22A7492BA14DCD00D55DAD /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB22A7462BA14DCC00D55DAD /* ViewController2.swift */; };
+		CB22A74A2BA14DCD00D55DAD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB22A7472BA14DCC00D55DAD /* TableViewCell.swift */; };
+		CB3BB8682BA2A069009A9F5F /* MatrixConcatenation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BB8612BA2A069009A9F5F /* MatrixConcatenation.swift */; };
+		CB3BB8692BA2A069009A9F5F /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BB8622BA2A069009A9F5F /* Matrix.swift */; };
+		CB3BB86A2BA2A069009A9F5F /* AAPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BB8632BA2A069009A9F5F /* AAPoint.swift */; };
+		CB3BB86B2BA2A069009A9F5F /* MatrixMultiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BB8642BA2A069009A9F5F /* MatrixMultiplication.swift */; };
+		CB3BB86C2BA2A069009A9F5F /* AASphereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BB8652BA2A069009A9F5F /* AASphereView.swift */; };
+		CB3BB86D2BA2A069009A9F5F /* MatrixCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BB8662BA2A069009A9F5F /* MatrixCreation.swift */; };
+		CB3BB86E2BA2A069009A9F5F /* MatrixSubscripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BB8672BA2A069009A9F5F /* MatrixSubscripting.swift */; };
+		CB3BB8742BA2D706009A9F5F /* MyTextsClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CB3BB8732BA2D706009A9F5F /* MyTextsClassifier.mlmodel */; };
+		CB3BB8A62BA360BB009A9F5F /* ShootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BB8A22BA360BB009A9F5F /* ShootViewController.swift */; };
+		CB3BB8A72BA360BB009A9F5F /* BezierText.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BB8A32BA360BB009A9F5F /* BezierText.swift */; };
+		CB3BB8A82BA360BB009A9F5F /* BezierText0.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BB8A42BA360BB009A9F5F /* BezierText0.swift */; };
+		CB3BB8A92BA360BB009A9F5F /* ColletionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BB8A52BA360BB009A9F5F /* ColletionViewCell.swift */; };
+		CB4582EF2BA6AD4600A48954 /* EndColorClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CB4582EE2BA6AD4600A48954 /* EndColorClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		75D026C123E3AD3BD969DBD2 /* Pods-coremlproject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coremlproject.release.xcconfig"; path = "Target Support Files/Pods-coremlproject/Pods-coremlproject.release.xcconfig"; sourceTree = "<group>"; };
+		A77C90E81DD9ADB1DAA052D2 /* Pods_coremlproject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coremlproject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C79AECB419CD4119727940FC /* Pods-coremlproject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coremlproject.debug.xcconfig"; path = "Target Support Files/Pods-coremlproject/Pods-coremlproject.debug.xcconfig"; sourceTree = "<group>"; };
+		CB1A51192C78D3CB00D9C2C8 /* Chat-Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Chat-Model.swift"; sourceTree = "<group>"; };
 		CB22A6F22B9FF0CE00D55DAD /* coremlproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coremlproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB22A6F52B9FF0CE00D55DAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB22A6F72B9FF0CE00D55DAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CB22A6F92B9FF0CE00D55DAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CB22A6FC2B9FF0CE00D55DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB22A6FE2B9FF0D100D55DAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB22A7012B9FF0D100D55DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB22A7032B9FF0D100D55DAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB22A7092B9FF0FE00D55DAD /* Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		CB22A70A2B9FF0FE00D55DAD /* ARBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARBridge.swift; sourceTree = "<group>"; };
+		CB22A70B2B9FF0FE00D55DAD /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
+		CB22A70C2B9FF0FE00D55DAD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB22A70E2B9FF10100D55DAD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CB22A7152B9FF24100D55DAD /* BarContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarContentView.swift; sourceTree = "<group>"; };
+		CB22A71A2B9FF27600D55DAD /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CB22A71C2B9FF2B300D55DAD /* JudgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JudgeViewController.swift; sourceTree = "<group>"; };
+		CB22A71E2B9FF2DE00D55DAD /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		CB22A7462BA14DCC00D55DAD /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		CB22A7472BA14DCC00D55DAD /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		CB3BB8612BA2A069009A9F5F /* MatrixConcatenation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixConcatenation.swift; sourceTree = "<group>"; };
+		CB3BB8622BA2A069009A9F5F /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		CB3BB8632BA2A069009A9F5F /* AAPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPoint.swift; sourceTree = "<group>"; };
+		CB3BB8642BA2A069009A9F5F /* MatrixMultiplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixMultiplication.swift; sourceTree = "<group>"; };
+		CB3BB8652BA2A069009A9F5F /* AASphereView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AASphereView.swift; sourceTree = "<group>"; };
+		CB3BB8662BA2A069009A9F5F /* MatrixCreation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixCreation.swift; sourceTree = "<group>"; };
+		CB3BB8672BA2A069009A9F5F /* MatrixSubscripting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixSubscripting.swift; sourceTree = "<group>"; };
+		CB3BB8732BA2D706009A9F5F /* MyTextsClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyTextsClassifier.mlmodel; sourceTree = "<group>"; };
+		CB3BB8A22BA360BB009A9F5F /* ShootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShootViewController.swift; sourceTree = "<group>"; };
+		CB3BB8A32BA360BB009A9F5F /* BezierText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BezierText.swift; sourceTree = "<group>"; };
+		CB3BB8A42BA360BB009A9F5F /* BezierText0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BezierText0.swift; sourceTree = "<group>"; };
+		CB3BB8A52BA360BB009A9F5F /* ColletionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColletionViewCell.swift; sourceTree = "<group>"; };
+		CB4582EE2BA6AD4600A48954 /* EndColorClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = EndColorClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +81,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C70BE6DD319BBEE53FB1B033 /* Pods_coremlproject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0345243175CD33667D408DB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A77C90E81DD9ADB1DAA052D2 /* Pods_coremlproject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		841912A13FD26560295FDE58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C79AECB419CD4119727940FC /* Pods-coremlproject.debug.xcconfig */,
+				75D026C123E3AD3BD969DBD2 /* Pods-coremlproject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CB22A6E92B9FF0CE00D55DAD = {
 			isa = PBXGroup;
 			children = (
+				CB22A7152B9FF24100D55DAD /* BarContentView.swift */,
 				CB22A6F42B9FF0CE00D55DAD /* coremlproject */,
 				CB22A6F32B9FF0CE00D55DAD /* Products */,
+				841912A13FD26560295FDE58 /* Pods */,
+				0345243175CD33667D408DB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +127,77 @@
 		CB22A6F42B9FF0CE00D55DAD /* coremlproject */ = {
 			isa = PBXGroup;
 			children = (
+				CB3BB8602BA2A069009A9F5F /* AASphereView */,
 				CB22A6F52B9FF0CE00D55DAD /* AppDelegate.swift */,
 				CB22A6F72B9FF0CE00D55DAD /* SceneDelegate.swift */,
-				CB22A6F92B9FF0CE00D55DAD /* ViewController.swift */,
-				CB22A6FB2B9FF0CE00D55DAD /* Main.storyboard */,
+				CB22A71A2B9FF27600D55DAD /* Model.swift */,
+				CB3BB8772BA2DB00009A9F5F /* function0 */,
+				CB22A7192B9FF24F00D55DAD /* function1 */,
+				CB22A7452BA14DCC00D55DAD /* function2 */,
+				CB22A7032B9FF0D100D55DAD /* Info.plist */,
 				CB22A6FE2B9FF0D100D55DAD /* Assets.xcassets */,
 				CB22A7002B9FF0D100D55DAD /* LaunchScreen.storyboard */,
-				CB22A7032B9FF0D100D55DAD /* Info.plist */,
 			);
 			path = coremlproject;
+			sourceTree = "<group>";
+		};
+		CB22A7192B9FF24F00D55DAD /* function1 */ = {
+			isa = PBXGroup;
+			children = (
+				CB22A71C2B9FF2B300D55DAD /* JudgeViewController.swift */,
+				CB22A70A2B9FF0FE00D55DAD /* ARBridge.swift */,
+				CB22A70C2B9FF0FE00D55DAD /* ViewController.swift */,
+				CB4582EE2BA6AD4600A48954 /* EndColorClassifier.mlmodel */,
+				CB22A70B2B9FF0FE00D55DAD /* Scene.sks */,
+				CB22A70E2B9FF10100D55DAD /* Main.storyboard */,
+				CB22A7092B9FF0FE00D55DAD /* Scene.swift */,
+			);
+			path = function1;
+			sourceTree = "<group>";
+		};
+		CB22A7452BA14DCC00D55DAD /* function2 */ = {
+			isa = PBXGroup;
+			children = (
+				CB22A7462BA14DCC00D55DAD /* ViewController2.swift */,
+				CB22A7472BA14DCC00D55DAD /* TableViewCell.swift */,
+				CB3BB8732BA2D706009A9F5F /* MyTextsClassifier.mlmodel */,
+				CB1A51192C78D3CB00D9C2C8 /* Chat-Model.swift */,
+			);
+			path = function2;
+			sourceTree = "<group>";
+		};
+		CB3BB8602BA2A069009A9F5F /* AASphereView */ = {
+			isa = PBXGroup;
+			children = (
+				CB3BB8612BA2A069009A9F5F /* MatrixConcatenation.swift */,
+				CB3BB8622BA2A069009A9F5F /* Matrix.swift */,
+				CB3BB8632BA2A069009A9F5F /* AAPoint.swift */,
+				CB3BB8642BA2A069009A9F5F /* MatrixMultiplication.swift */,
+				CB3BB8652BA2A069009A9F5F /* AASphereView.swift */,
+				CB3BB8662BA2A069009A9F5F /* MatrixCreation.swift */,
+				CB3BB8672BA2A069009A9F5F /* MatrixSubscripting.swift */,
+			);
+			path = AASphereView;
+			sourceTree = "<group>";
+		};
+		CB3BB8772BA2DB00009A9F5F /* function0 */ = {
+			isa = PBXGroup;
+			children = (
+				CB3BB8A12BA360BB009A9F5F /* shootviewcontroller */,
+				CB22A71E2B9FF2DE00D55DAD /* ViewController1.swift */,
+			);
+			path = function0;
+			sourceTree = "<group>";
+		};
+		CB3BB8A12BA360BB009A9F5F /* shootviewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				CB3BB8A22BA360BB009A9F5F /* ShootViewController.swift */,
+				CB3BB8A32BA360BB009A9F5F /* BezierText.swift */,
+				CB3BB8A42BA360BB009A9F5F /* BezierText0.swift */,
+				CB3BB8A52BA360BB009A9F5F /* ColletionViewCell.swift */,
+			);
+			path = shootviewcontroller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB22A7062B9FF0D100D55DAD /* Build configuration list for PBXNativeTarget "coremlproject" */;
 			buildPhases = (
+				953D6F9B9E4DE96B5F11700E /* [CP] Check Pods Manifest.lock */,
 				CB22A6EE2B9FF0CE00D55DAD /* Sources */,
 				CB22A6EF2B9FF0CE00D55DAD /* Frameworks */,
 				CB22A6F02B9FF0CE00D55DAD /* Resources */,
+				B037586083BEBE9235E976B9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +260,93 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB22A7112B9FF10100D55DAD /* Scene.sks in Resources */,
 				CB22A7022B9FF0D100D55DAD /* LaunchScreen.storyboard in Resources */,
 				CB22A6FF2B9FF0D100D55DAD /* Assets.xcassets in Resources */,
-				CB22A6FD2B9FF0CE00D55DAD /* Main.storyboard in Resources */,
+				CB22A7142B9FF10100D55DAD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		953D6F9B9E4DE96B5F11700E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-coremlproject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B037586083BEBE9235E976B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coremlproject/Pods-coremlproject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coremlproject/Pods-coremlproject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-coremlproject/Pods-coremlproject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CB22A6EE2B9FF0CE00D55DAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB22A6FA2B9FF0CE00D55DAD /* ViewController.swift in Sources */,
+				CB22A71D2B9FF2B300D55DAD /* JudgeViewController.swift in Sources */,
+				CB22A7122B9FF10100D55DAD /* ViewController.swift in Sources */,
+				CB22A7162B9FF24100D55DAD /* BarContentView.swift in Sources */,
+				CB22A7492BA14DCD00D55DAD /* ViewController2.swift in Sources */,
+				CB3BB8A62BA360BB009A9F5F /* ShootViewController.swift in Sources */,
+				CB3BB86A2BA2A069009A9F5F /* AAPoint.swift in Sources */,
+				CB3BB8742BA2D706009A9F5F /* MyTextsClassifier.mlmodel in Sources */,
+				CB4582EF2BA6AD4600A48954 /* EndColorClassifier.mlmodel in Sources */,
 				CB22A6F62B9FF0CE00D55DAD /* AppDelegate.swift in Sources */,
+				CB22A7102B9FF10100D55DAD /* ARBridge.swift in Sources */,
+				CB3BB86B2BA2A069009A9F5F /* MatrixMultiplication.swift in Sources */,
+				CB3BB86C2BA2A069009A9F5F /* AASphereView.swift in Sources */,
+				CB22A71F2B9FF2DE00D55DAD /* ViewController1.swift in Sources */,
+				CB1A511A2C78D3CB00D9C2C8 /* Chat-Model.swift in Sources */,
+				CB3BB86D2BA2A069009A9F5F /* MatrixCreation.swift in Sources */,
+				CB3BB8682BA2A069009A9F5F /* MatrixConcatenation.swift in Sources */,
 				CB22A6F82B9FF0CE00D55DAD /* SceneDelegate.swift in Sources */,
+				CB3BB8692BA2A069009A9F5F /* Matrix.swift in Sources */,
+				CB3BB8A82BA360BB009A9F5F /* BezierText0.swift in Sources */,
+				CB22A74A2BA14DCD00D55DAD /* TableViewCell.swift in Sources */,
+				CB3BB86E2BA2A069009A9F5F /* MatrixSubscripting.swift in Sources */,
+				CB3BB8A92BA360BB009A9F5F /* ColletionViewCell.swift in Sources */,
+				CB22A70F2B9FF10100D55DAD /* Scene.swift in Sources */,
+				CB3BB8A72BA360BB009A9F5F /* BezierText.swift in Sources */,
+				CB22A71B2B9FF27600D55DAD /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CB22A6FB2B9FF0CE00D55DAD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CB22A6FC2B9FF0CE00D55DAD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CB22A7002B9FF0D100D55DAD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -203,7 +395,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +458,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -287,6 +479,7 @@
 		};
 		CB22A7072B9FF0D100D55DAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C79AECB419CD4119727940FC /* Pods-coremlproject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,17 +488,19 @@
 				DEVELOPMENT_TEAM = NB7MLN7C46;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = coremlproject/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.coremlproject";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.wwdc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -315,6 +510,7 @@
 		};
 		CB22A7082B9FF0D100D55DAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75D026C123E3AD3BD969DBD2 /* Pods-coremlproject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,17 +519,19 @@
 				DEVELOPMENT_TEAM = NB7MLN7C46;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = coremlproject/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.coremlproject";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.wwdc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

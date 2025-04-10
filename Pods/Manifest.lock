@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (5.6.4)
+  - ESTabBarController-swift (2.8.0)
+  - Hero (1.6.2)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - ESTabBarController-swift
+  - Hero
+  - SnapKit
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - ESTabBarController-swift
+    - Hero
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
+  Hero: c69009dbc9e2f0472e081adc644dba05fcedae72
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: 0dfd7dfe85bf86677f6dd5273fedf63fe520f3ab
+
+COCOAPODS: 1.12.0
